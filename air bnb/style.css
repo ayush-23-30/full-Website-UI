@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+
+
+
+}
+.main-hu-main{
+    height: 100vh;
+    width: 100%;
+}
+/* .cursor{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    transition: all linear 0.2s;
+    background-color:hotpink;
+    position: absolute;
+    mix-blend-mode: difference;
+    z-index: 1;
+
+} */
+header{
+    height: 90px;
+    border-bottom: 1px solid rgb(235 227 227);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header img {
+    margin-left: 100px;
+    width: 110px;
+    margin-top: 5px;
+    height: 35px;
+}
+.med{
+    height: 50px;
+    width: 400px;
+    border: 1px solid  rgb(235 227 227);
+    border-radius: 50px;
+    /* text-align: center; */
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: math;
+}
+.bor{
+border-right: 1px solid  rgb(165, 162, 162) ;
+ padding: 10px;
+ color: #222222;
+}
+
+.sir  {
+font-size: 1.3rem ;
+}
+
+.ser{
+    padding: 6px;
+    padding-right: 25px;
+    color: #717171;
+}
+.con{
+display: flex;
+align-items: center;
+margin-right: 55px;
+font-size: 1.1rem;
+gap: 15px;
+
+}
+.con h3 {
+    color: #222222;
+    font-size: 1.2rem;
+   font-family: math;
+}
+.hleft {
+    border: 1px solid black ;
+    border-radius: 20px;
+
+}
+.hleft i {
+    padding: 5px;
+    margin: 5px 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+section{
+   margin-left: 100px ;
+   max-width: 1280px;
+
+}
+.upp{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.rimg img {
+    height: 630px;
+    width: 1050px;
+    border-radius: 20px;
+}
+.lbox{
+    height: 520px;
+    width: 420px;
+    position: absolute;
+    padding: 32px ;
+    left: 80px;
+    /* border: 1px solid ; */
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 2px  rgb(235 227 227) ;
+
+}
+.trip{
+    font-size: 42px;
+    font-family: system-ui;
+}
+.dis{
+    font-size: 20px;
+    font-family: emoji;
+    color: grey;
+}
+.form{
+margin-top: 15px;
+}
+.first {
+    font-size: 1.1rem;
+    font-family: math;
+    font-weight: 800;
+    position: absolute;
+    left: 50px;
+    padding-top: 7px;
+}
+.and{
+    width: 400px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 21px;
+    /* padding-left: 12px; */
+    /* padding: 10px; */
+    padding-top: 20px;
+    padding-left: 22px;
+}
+.in {
+margin-top :15px;
+}
+.btn{
+margin: 15px ;
+}
+.btn button{
+    width: 400px;
+    height: 55px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: #f91212;
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-weight: 900;
+}
+/* ::content */
+
+.ficol{
+    margin-top: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.one {
+    padding: 10px;
+    line-height: 35px;
+    width: 350px;
+    height: 200px ;
+}
+.one h2 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    font-family: math;
+}
+.one p{
+    font-size: 1.2rem;
+    padding: 10px;
+    font-family: math;
+    font-weight: 600;
+}
+.one i {
+font-size: 30px ;
+}
+
+/* pictures */
+
+.photo {
+    margin-top: 150px ;
+}
+.fe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo h1{
+    font-size: 2.5rem;
+    font-family: math;
+    padding: 15px;
+}
+.two {
+    height: 500px;
+    width: 400px ;
+    cursor: pointer;
+}
+.two img{
+    height: 380px;
+    width: 400px;
+    border-radius: 16px ;
+    object-fit: cover;
+    transition: all ease-out 0.5s;
+
+}
+.two img:hover{
+    scale: 1.1;
+}
+.two h3 {
+    padding-top: 20px;
+    font-size: 1.5rem;
+    margin: 10px;
+    font-family: monospace;
+}
+.two p {
+    color: grey;
+    margin: 11px;
+    font-size: 17px;
+}
+
+/* buttons--------- */
+
+.big{
+    background-color:rgb(240 238 240) ;
+    height: 500px ;
+    width: 100%;
+    margin-top:150px;
+
+}
+
+.tb {
+    margin-left: 150px;
+    padding-top: 80px;
+}
+.tb h1{
+    font-size: 2.6rem;
+    font-family: math;
+    padding-bottom: 14px;
+} 
+.tb p{
+    color: #686464;
+    font-size: 1.3rem;
+    font-family: emoji;
+    padding-left: 3px;
+}
+
+.btn2 {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 45px;
+padding-top: 30px ;
+margin-left: 100px ;
+max-width: 1280px;
+}
+
+.bot i {
+    font-size: 2rem;
+    position: relative;
+    right: 40px ;
+}
+
+.bot button{
+    width: 260px;
+    background: white;
+    height: 80px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.arror{
+    padding-left: 6px;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: cursive;
+}
+.pool {
+    font-size: 1.5rem;
+    font-family: math;
+    font-weight: 800;
+}
+
+.boot i {
+    font-size: 2rem;
+    position: relative;
+    right: 16px ;
+}
+.boot button{
+    width: 260px;
+    background: white;
+    height: 80px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* max  */
+
+.max {
+    margin-left: 100px ;
+    max-width: 1280px;
+ 
+ }
+.ex{
+
+margin-top: 150px ;
+}
+
+/* explore  */
+
+.ques{
+    margin-top: 150px;
+    display: flex;
+    height: 650px  ;
+    overflow: hidden;
+
+
+
+}
+.ques h1 {
+    width:50%;
+    height: 480px ;
+    font-size: 4rem;
+    font-family: math;
+    font-weight: bolder;
+}
+/* .part {
+
+} */
+.det{
+    width: 530px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(165, 162, 162);
+    padding-top: 20px ;
+}
+.sum{
+    font-size: 1.4rem;
+    line-height: 42px;
+    color: black;
+    font-family: math;
+}
+.sump{
+    color: grey;
+    font-weight: 600;
+    font-family: math;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.sump a {
+text-decoration: underline;
+}
+
+.ab { 
+    margin-top:100px ;
+}
+.ab a {
+    font-size: 1.4rem;
+    font-weight: 600
+}
+.ak  {
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.in {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+footer {
+    margin-top: 80px;
+    height: 100px;
+    background-color:rgb(240 238 240) ;
+}
+
+.subf{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 45px;
+    padding-left: 75px;
+    cursor: pointer;
+}
+.subf p {
+    font-size: 1.1rem;
+    color: #383636;
+}
+/* .subf :hover{
+    text-decoration: underline;
+    
+} */
+.lsub{
+    position: relative;
+    left: 650px;
+
+}
+.hum:hover{
+    text-decoration: underline;
+}
+.lsub i {
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+
+
+
