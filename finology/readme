@@ -1,0 +1,27 @@
+
+# Finology Website Clone
+ # Overview
+This project is a full clone of the Finology website, created using pure HTML and CSS. The clone replicates the design and layout of the original website, demonstrating a strong understanding of front-end development fundamentals.
+
+# Features
+Exact Design Replication: The clone closely mirrors the design and user interface of the original Finology website.
+
+Responsive Layout: The layout is responsive, ensuring that the website looks good on different screen sizes, including desktops, tablets, and mobile devices.
+
+HTML & CSS Only: The project is built entirely using HTML for structure and CSS for styling, without the use of JavaScript or any frontend frameworks.
+
+# Project Structure
+HTML Files: The project includes HTML files that represent different pages of the Finology website, structured semantically for better accessibility and SEO.
+CSS Files: Custom CSS files are used to style the pages, with a focus on replicating the original website's look and feel.
+
+# Technologies Used
+HTML: Used for structuring the content on the web pages.
+
+CSS: Used for styling the content, creating the layout, and ensuring responsiveness.
+
+# Challenges Faced
+Responsive Design: Ensuring that the website maintains its design integrity across various screen sizes.
+
+Complex Layouts: Replicating the complex layouts and design elements of the original Finology website using only CSS.
+# License
+This project is licensed under the MIT License. Feel free to use and modify the code as per your needs.
